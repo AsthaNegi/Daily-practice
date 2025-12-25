@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    gap:2%;
+    margin:10px;
+    padding:10px;
+    justify-content:center;
+    align-items:center;
+}
+
+.product_single{
+    background-color:#DBDBDB;
+    margin:5px;
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border-radius:5px;
+}
